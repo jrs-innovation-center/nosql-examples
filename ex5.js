@@ -1,10 +1,5 @@
-// http://nosql.how2js.com/dbs-and-docs/5
-
-// Create three queries to fulfill the following requirements.
-// Adjust the _id values in your docs to facilitate querying.
-//  List all the actors sorted by first name then last name
-//  List all movies with Emma Watson
-//  List all movies with John Candy released in 1986 and 1987
+// Designing Searchable Document IDs
+// see http://nosql.how2js.com/dbs-and-docs/5 for detailed instructions
 
 const PouchDB = require('pouchdb');
 var db = new PouchDB('http://localhost:5984/ex5-movies');

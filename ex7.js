@@ -1,3 +1,12 @@
+//http://nosql.how2js.com/dbs-and-docs/7
+
+// A new database named test has been created and two drivers have been added for you.
+// Delete Taylor Swift's record.
+// Once you've deleted her record, attempt to retrieve her deleted record back from the database.
+//
+// You should receive an error message stating that the document is missing.
+// The callback to test for the appropriate error message has been provided. Similarly to previous exercises,
+// the 3rd callback will utilize a function named testcallback to check your work.
 
 const PouchDB = require('pouchdb');
 var db = new PouchDB('http://localhost:5984/ex7-delete');
