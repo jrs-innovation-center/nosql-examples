@@ -32,6 +32,4 @@ db.bulkDocs(drivers, function cb(err, result){
   }
 })
 
-
-
-BROWSER --- INTERNET (HTTP) --- SPOTIFY API  --- COUCHDB                                                                        DATABASE (COUCHDB)
+                                                                     DATABASE (COUCHDB)
