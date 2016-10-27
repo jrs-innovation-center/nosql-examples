@@ -24,7 +24,8 @@ var callback = function(message) {
 // add the records
 db.bulkDocs(drivers, function(err, response) {
     if (err) {
-        return console.log(err);
+        return console.log("bulkDocs:
+        ", err.message);
     }
     // handle result
     if (response) {

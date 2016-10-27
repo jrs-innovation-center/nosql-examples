@@ -9,11 +9,11 @@
 // You are optimistic that no one else has updated your record in the meantime.
 // If they have, the _rev will be a different value and Couch will reject your update.
 //
-// A new database named test has been created.
+// A new database named xxyz has been created.
 // Add two documents to this database with the following information:
 
 // Update Taylor Swift's record by adding the following property to the document:
-// 
+//
 // suspended: true
 //
 // Remember, when updating you are replacing the entire document.
@@ -45,13 +45,16 @@ var callback = function(message) {
 
 
 // add the records
-db.--- (---- , function(err, response) {
+db.bulkDocs (drivers , function(err, response) {
     if (err) {
         return console.log(err);
     }
     // update taylor swift with suspended: true.  _rev value must be current
+    // _rev
+    // _id ?? response
+    //  suspended: true
     if (response) {
-        db.--- (----, function(err, response) {
+        db.put (----, function(err, response) {
             if (err) {
                 return console.log(err);
             }

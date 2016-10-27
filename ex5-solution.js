@@ -89,7 +89,7 @@ var movie = [{
     name: "Little Shop of Horrors",
     actorID: "actor_JohnCandy",
     role: "Wink Wilkinson",
-    year: 1987,
+    year: 1986,
     desc: "A nerdy florist finds his chance for success and romance with the help of a giant man-eating plant who demands to be fed."
 }, {
     _id: "movie_TomCruise_1986_TopGun",
@@ -103,7 +103,7 @@ var movie = [{
     name: "Rain Man",
     actorID: "actor_TomCruise",
     role: "Charlie Babbitt",
-    year: 1988,
+    year: 1989,
     desc: "Selfish yuppie Charlie Babbitt's (Tom Cruise) father left a fortune to his savant brother Raymond (Dustin Hoffman) and a pittance to Charlie; they travel cross-country."
 }, {
     _id: "movie_EmmaWatson_2005_HarryPotterandtheGobletofFire",
